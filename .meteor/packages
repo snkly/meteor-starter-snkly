@@ -5,9 +5,9 @@
 
 meteor-platform
 iron:router
-zimme:iron-router-active
-aldeed:collection2
+accounts-ui
 accounts-twitter
+twbs:bootstrap
 stylus
 coffeescript
 jquery
@@ -15,5 +15,3 @@ underscore
 mquandalle:jade
 momentjs:moment
 meteorhacks:npm
-accounts-ui
-twbs:bootstrap
