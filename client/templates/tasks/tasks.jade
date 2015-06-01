@@ -1,0 +1,11 @@
+template(name='tasks')
+  h3 Todo List ({{incompleteCount}})
+  label.hide-completed
+    input(type='checkbox', checked='{{hideCompleted}}')
+    p.cka Hide Completed Tasks
+  if currentUser
+    form.new-task
+      input(type='text', name='text', placeholder='Type to add new tasks')
+  ul
+    each tasks
+      +task
