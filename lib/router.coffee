@@ -13,6 +13,7 @@ Router.map ->
   @.route '/tasks',
     template: 'tasks'
 
+  @.route '/about'
 
 # When navigating, check that we have a userId. If not, then render home page instead.
 #Router.onBeforeAction ->

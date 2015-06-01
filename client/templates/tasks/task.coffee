@@ -1,4 +1,5 @@
 ## Item ##
+#Using the “template/mapper” pattern. The `task.jade` template has a similarly named `task.coffees` CoffeeScript file that holds its helper code.
 
 #Code related to the item template
 Template.task.helpers isOwner: ->
