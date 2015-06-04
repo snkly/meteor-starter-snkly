@@ -1,6 +1,6 @@
 # Meteor Starterkit
 
-A simple CoffeeScript + Jade boilerplate app for [Meteor](http://meteor.com) with file structure and other packages that I use.
+A simple CoffeeScript + Jade starter app for [Meteor](http://meteor.com) with file structure and other packages that I use.
 
 This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.com/try), using [Iron-Router](https://github.com/EventedMind/iron-router), [CoffeeScript](http://coffeescript.org), [Jade](http://jade-lang.com/), as well as [Bootstrap](https://github.com/twbs/bootstrap/) and [Stylus](http://learnboost.github.io/stylus/).
 
@@ -45,7 +45,7 @@ This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.
 	- **npm-container**
 - **public**
     - **fonts**
-    - **img**
+    - **images**
 - **server**
     - **lib**
         - startup.coffee
