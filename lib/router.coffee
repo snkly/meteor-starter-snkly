@@ -16,8 +16,8 @@ Router.map ->
   @.route '/about'
 
 # When navigating, check that we have a userId. If not, then render home page instead.
-Router.onBeforeAction ->
-  if not Meteor.userId()
-    @.render 'home'
-  else
-    @.render '/tasks'
+#Router.onBeforeAction ->
+#  if not Meteor.userId()
+#    @.render 'home'
+#  else
+#    @.render '/tasks'
