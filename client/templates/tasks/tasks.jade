@@ -1,11 +1,17 @@
 template(name='tasks')
-  h3 Todo List ({{incompleteCount}})
-  label.hide-completed
-    input(type='checkbox', checked='{{hideCompleted}}')
-    p.cka Hide Completed Tasks
-  if currentUser
-    form.new-task
-      input(type='text', name='text', placeholder='Type to add new tasks')
-  ul
-    each tasks
-      +task
+  .col-lg-12
+    .row
+      .col-lg-6
+        h3 Todo List ({{incompleteCount}})
+      .col-lg-6
+        label.hide-completed.pull-right
+          input(type='checkbox', checked='{{hideCompleted}}')
+          p.pull-right Hide Completed Tasks
+    .row
+      .col-lg-12
+        if currentUser
+          form.new-task
+            input(type='text', name='text', placeholder='Type to add new tasks')
+        ul
+          each tasks
+            +task
