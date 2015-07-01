@@ -16,13 +16,13 @@ This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.
 
 - **client**
 	- **helpers**
-		- handlebars.js
-		- layout.js
+		- helpers.coffee
 	- **templates**
 		- **common**
 			- footer.jade
 			- header.jade
 			- layout.jade
+		    - layout.coffee
 			- loading.jade
 			- notFound.jade
 		- **tasks**
