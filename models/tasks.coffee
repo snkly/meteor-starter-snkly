@@ -7,7 +7,8 @@ Meteor.methods
       text: text
       createdAt: new Date
       owner: Meteor.userId()
-      username: Meteor.user().profile.name
+      username: Meteor.user().username
+        # Change 'username' to 'profile.name' if you're using Twitter or other service for accounts.
     return
   deleteTask: (taskId) ->
     task = Tasks.findOne(taskId)

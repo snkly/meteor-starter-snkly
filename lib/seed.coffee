@@ -1,3 +1,5 @@
+#Files in the 'lib' folder are loaded first before anything else.
+
 #Fill in the app with dummy data if database is empty.
 
 #if Tasks.find().count() == 0

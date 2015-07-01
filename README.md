@@ -1,16 +1,15 @@
 # Meteor Starterkit
 
-A simple CoffeeScript + Jade starter app for [Meteor](http://meteor.com) with file structure and other packages that I use.
+A straight-forward CoffeeScript + Jade starter app for [Meteor](http://meteor.com).
 
-This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.com/try), using [Iron-Router](https://github.com/EventedMind/iron-router), [CoffeeScript](http://coffeescript.org), [Jade](http://jade-lang.com/), as well as [Bootstrap](https://github.com/twbs/bootstrap/) and [Stylus](http://learnboost.github.io/stylus/).
+This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.com/try), using [Iron-Router](https://github.com/EventedMind/iron-router), [CoffeeScript](http://coffeescript.org), [Jade](http://jade-lang.com/).
 
 ## Features
 
 - Client-side routing with Iron:Router
-- CoffeeScript, Jade, Bootstrap
-- User login with Twitter
+- CoffeeScript, Jade, Stylus
+- Bootstrap
 - Common templates
-- Organized and intuitive file structure
 - Descriptive comments
 
 ## File Structure
@@ -56,6 +55,7 @@ This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.
 
 - iron:router
 - accounts-ui
+- accounts-password
 - accounts-twitter
 - twbs:bootstrap
 - stylus
@@ -65,3 +65,5 @@ This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.
 - mquandalle:jade
 - momentjs:moment
 - meteorhacks:npm
+
+The 'packages' folder and 'packages.json' in the root directory, and meteorhacks:npm are used to integrate npm packages in your Meteor project so they can be removed if you're not doing so in your project.

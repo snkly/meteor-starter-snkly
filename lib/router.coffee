@@ -1,3 +1,5 @@
+#Files in the 'lib' folder are loaded first before anything else.
+
 ## Client (iron) Router ##
 
 #config
