@@ -1,6 +1,6 @@
 # Meteor Starterkit
 
-A straight-forward CoffeeScript + Jade starter app for [Meteor](http://meteor.com).
+A straightforward CoffeeScript + Jade starter app for [Meteor](http://meteor.com).
 
 This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.com/try), using [Iron-Router](https://github.com/EventedMind/iron-router), [CoffeeScript](http://coffeescript.org), [Jade](http://jade-lang.com/).
 
