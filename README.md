@@ -40,6 +40,8 @@ This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.
 - **lib**
 	- router.coffee
 	- seed.coffee
+- **models**
+	-tasks.coffee
 - **packages**
 	- **npm-container**
 - **public**
