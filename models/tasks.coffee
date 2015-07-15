@@ -1,5 +1,6 @@
 #Calling methods on the server defines functions that can be called remotely by clients.
 #Calling methods on the client defines stub functions associated with server methods of the same name.Meteor.methods
+Meteor.methods
   addTask: (text) ->
     # Make sure the user is logged in before inserting a task
     if !Meteor.userId()
