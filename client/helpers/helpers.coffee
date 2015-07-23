@@ -1,6 +1,6 @@
 ## Helpers ##
 
-#Custom helper function which can be used from all templates
+#Custom helper function for the client
 
 UI.registerHelper 'myHelper', (myArgument) ->
   'https://github.com/' + myArgument

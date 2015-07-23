@@ -5,14 +5,19 @@
 
 meteor-platform
 iron:router
+zimme:active-route
 accounts-ui
+accounts-password
 accounts-twitter
 twbs:bootstrap
+fortawesome:fontawesome
 stylus
 coffeescript
 jquery
 underscore
 mquandalle:jade
-momentjs:moment
 meteorhacks:npm
-accounts-password
+msavin:mongol
+momentjs:moment
+raix:handlebar-helpers
+chrismbeckett:toastr
