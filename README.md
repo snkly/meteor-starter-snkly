@@ -41,7 +41,7 @@ This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.
 	- router.coffee
 	- seed.coffee
 - **common**
-	-tasks.coffee
+	- tasks.coffee
 - **packages**
 	- **npm-container**
 - **public**
@@ -69,6 +69,7 @@ This is a rebuild of the Meteor ["simple-todos" app tutorial](http://www.meteor.
 - mquandalle:jade
 - meteorhacks:npm
 - msavin:mongol
+- msavin:jetsetter
 - momentjs:moment
 - raix:handlebar-helpers
 - chrismbeckett:toastr
